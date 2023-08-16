@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Card, CardContent, Typography, CardMedia } from '@mui/material';
 import Product from '../components/Product';
-import products from '../data/products';
 
 
 type ProductListProps = {
