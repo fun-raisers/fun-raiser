@@ -18,15 +18,15 @@ jobs:
       with:
         node-version: '16' 
 
-    - name: Install and Build 🔧
-      run: |
-        yarn install
-        yarn build
-
     - name: Hydrate site with data 🌊
       run: |
         yarn hydrate "${{ github.ref_name }}"
 
+    - name: Install and Build 🔧
+      run: |
+        yarn install
+        yarn build
+        
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
