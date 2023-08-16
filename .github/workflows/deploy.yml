@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2.1.2
       with:
-        node-version: '14' # you can specify your Node.js version here
+        node-version: '16' 
 
     - name: Install and Build 🔧
       run: |
