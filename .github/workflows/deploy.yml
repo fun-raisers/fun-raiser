@@ -20,13 +20,13 @@ jobs:
 
     - name: Hydrate site with data 🌊
       run: |
-        yarn hydrate "${{ env.SITE_NAME }}"
+        yarn hydrate "${{ vars.SITE_NAME }}"
 
     - name: Install and Build 🔧
       run: |
         yarn install
         yarn build
-        
+
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:
