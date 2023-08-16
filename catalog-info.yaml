@@ -7,6 +7,7 @@ metadata:
     # This annotation is used to link the component to the template
     # that should be used to render it.
     backstage.io/template: my-component-template
+    backstage.io/techdocs-ref: value
   links:
     - url: https://bandokal.github.io/fun-raiser/
       title: Demo Site
