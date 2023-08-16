@@ -23,6 +23,10 @@ jobs:
         yarn install
         yarn build
 
+    - name: Hydrate site with data 🌊
+      run: |
+        yarn hydrate "${{ github.ref_name }}"
+
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
       with:

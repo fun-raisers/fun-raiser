@@ -1,4 +1,8 @@
 {
+  "exclude": [
+    "src/__test__/**/*.test.ts",
+    "src/__test__/**/*.test.tsx"
+  ]  ,
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -23,4 +27,5 @@
   "include": [
     "src"
   ]
+  
 }

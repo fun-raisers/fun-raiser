@@ -19,7 +19,7 @@ const App: React.FC = () => {
         </Toolbar>
       </AppBar>
       <Container>
-        <Typography sx={{ paddingTop: '24px' }}>This is the Buff City Soap Dickson Fundraiser. 25% of all sales will go to the Dickson County High School Band! <strong>This fundraiser will end 10/31/2023.</strong>
+        <Typography sx={{ paddingTop: '24px' }}>This is the Dickson County Highschool Marching Band Fundraiser 🥁. 25% of all sales will go to the Dickson County High School Band! <strong>This fundraiser will end 10/31/2023.</strong>
 </Typography>
       <Typography sx={{ paddingTop: '24px' }}>
         Please send your order to Ms. BandDirector 

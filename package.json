@@ -25,7 +25,8 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "hydrate": "node setTitle.js"
   },
   "eslintConfig": {
     "extends": [
