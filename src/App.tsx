@@ -1,5 +1,5 @@
 import React from 'react';
-import { CssBaseline, Container, AppBar, Toolbar, Typography, makeStyles } from '@mui/material';
+import { CssBaseline, Container, AppBar, Toolbar, Typography } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import ProductList from './components/ProductList';
 import productsData from './data/products';
