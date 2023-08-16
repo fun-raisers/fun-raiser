@@ -20,7 +20,7 @@ jobs:
 
     - name: Hydrate site with data 🌊
       run: |
-        yarn hydrate "${{ github.ref_name }}"
+        yarn hydrate "${{ env.SITE_NAME }}"
 
     - name: Install and Build 🔧
       run: |
