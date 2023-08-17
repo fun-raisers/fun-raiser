@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Toolbar>
         <Logo style={{ height: 50, marginRight: 16 }} />
           <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>
-            {{ cookiecutter.fundraiserName }}
+            ${{ fundraiserName }}
             </Typography>
         </Toolbar>
       </AppBar>
