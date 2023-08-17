@@ -16,16 +16,18 @@ const App: React.FC = () => {
         <Toolbar>
         <Logo style={{ height: 50, marginRight: 16 }} />
           <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>
-            ${{ fundraiserName }}
+            ${{ values.fundraiserName }}
             </Typography>
         </Toolbar>
       </AppBar>
       <Container>
-        <Typography sx={{ paddingTop: '24px' }}>This is the Dickson County Highschool Marching Band Fundraiser 🥁. 25% of all sales will go to the Dickson County High School Band! <strong>This fundraiser will end 10/31/2023.</strong>
-</Typography>
-      <Typography sx={{ paddingTop: '24px' }}>
-        Please send your order to Ms. BandDirector 
-        <strong> <a href="mailto:your_email@example.com">DCHSBAND</a> Thank you for your support!</strong></Typography>
+        <Typography sx={{ paddingTop: '24px' }}>
+          <strong>${{ values.fundraiserHeadline }}</strong>
+        </Typography>
+        <Typography sx={{ paddingTop: '24px' }}>
+          ${{ values.fundraiserInstructions }}
+          <strong>This fundraiser ends ${{ values.endDate }}</strong>
+        </Typography>
       </Container>
       <Container sx={{ paddingTop: '24px' }}>
         <ProductList products={productsData} />
