@@ -15,7 +15,9 @@ const App: React.FC = () => {
       <AppBar position="sticky" style={{ backgroundColor: 'white' }}>
         <Toolbar>
         <Logo style={{ height: 50, marginRight: 16 }} />
-          <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>DCHS Band Fun Raiser</Typography>
+          <Typography variant="h6" color="primary" sx={{ fontWeight: 700 }}>
+            {{ cookiecutter.fundraiserName }}
+            </Typography>
         </Toolbar>
       </AppBar>
       <Container>
