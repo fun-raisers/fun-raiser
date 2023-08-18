@@ -1,8 +1,8 @@
 {
-  "name": "fun-raiser",
+  "name": "${{ values.fundraiserName }}",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bandokal.github.io/fun-raiser",
+  "homepage": "http://bandokal.github.io/${{ values.fundraiserName }}",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
