@@ -7,7 +7,7 @@ interface Product {
     keepPrice: number;
     image: string;
   }
-  // find out how the products value is shaped and initialize a new array with that data.
+//   find out how the products value is shaped and initialize a new array with that data.
   // {"endDate":"2023-08-31","fundraiserName":"blarg","location":"Dickson","products":[{"description":"Laundry Soap, 3 Dryer Balls, Scent Booster, Wooden Scoop.","name":"Laundry Bundle"},{"description":"Shave Soap, Body Scrub, Shower Oil.","name":"Smooth Shave Bundle"},{"description":"Body Butter, Moisturizing Shea Soap Bar, Silicone Soap Dish.","name":"Moisturizing Body Butter Bundle"},{"description":"Epsom Salt, Bath Bomb, Wooden Scoop.","name":"Relaxing Bath Bundle"},{"description":"Buff’s 5 Best-Selling Soap Bars.","name":"Buff’s 5 Best Soap Bundle"},{"description":"Buff’s 5 Best-Selling Bath Bombs.","name":"Buff’s 5 Best Bath Bomb Bundle"},{"description":"{Narcissist | All Hail the Queen | Good Morning Sunshine | Island Nectar | Commando} Soap + Soap Sleeve.","name":"Single Shea Soap + Soap Sleeve"},{"description":"Custom description","name":"Custom Soap Name?"}]}
   const products: Product[] = [
     {
