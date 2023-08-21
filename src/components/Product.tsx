@@ -22,7 +22,7 @@ const Product: React.FC<ProductProps> = ({ productName, image, productDescriptio
   return (
     <div>
       <h2>{productName}</h2>
-      <img src={`${process.env.PUBLIC_URL}/images/product-image-placeholder.jpg`} alt={name} width="200" /> 
+      <img src={`${process.env.PUBLIC_URL}/images/product-image-placeholder.jpg`} alt={productName} width="200" /> 
       <p>{productDescription}</p>
       <p>Price: {price}</p>
     </div>
