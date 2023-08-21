@@ -2,8 +2,8 @@ import React from 'react';
 
 type Product = {
     id: number;
-    name: string;
-    description: string;
+    productName: string;
+    productDescription: string;
     price: number;
     keepPrice: number;
     image: string;
@@ -11,21 +11,20 @@ type Product = {
 
 interface ProductProps {
     id: number;
-    name: string;
-    description: string;
+    productName: string;
+    productDescription: string;
     price: number;
     keepPrice: number;
     image: string;
 }
 
-const Product: React.FC<ProductProps> = ({ name, image, description, price, keepPrice }) => {
+const Product: React.FC<ProductProps> = ({ productName, image, productDescription, price }) => {
   return (
     <div>
-      <h2>{name}</h2>
+      <h2>{productName}</h2>
       <img src={`${process.env.PUBLIC_URL}/images/product-image-placeholder.jpg`} alt={name} width="200" /> 
-      <p>{description}</p>
-      <p>Price: ${price}</p>
-      <p>You Keep: ${keepPrice}</p>
+      <p>{productDescription}</p>
+      <p>Price: {price}</p>
     </div>
   );
 };

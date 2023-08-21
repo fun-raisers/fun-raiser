@@ -15,16 +15,16 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
           <Card>
             <CardMedia
               component="img"
-              alt={product.name}
+              alt={product.productName}
               height="140"
               image={`${process.env.PUBLIC_URL}/images/${product.id}.jpeg`}
             />
             <CardContent>
               <Typography variant="h5" component="div">
-                {product.name}
+                {product.productName}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                {product.description}
+                {product.productDescription}
               </Typography>
               <Typography variant="h6">
                 ${product.price}

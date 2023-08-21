@@ -8,6 +8,7 @@ import { ReactComponent as Logo } from './assets/buff-logo.svg';
 
 
 const App: React.FC = () => {
+  const products = ${{ values.products }} ?? productsData;
   return (
     <ThemeProvider theme={theme}>
     <React.Fragment>
@@ -30,7 +31,7 @@ const App: React.FC = () => {
         </Typography>
       </Container>
       <Container sx={{ paddingTop: '24px' }}>
-        <ProductList products={productsData} />
+        <ProductList products={products} />
       </Container>
     </React.Fragment>
     </ThemeProvider>
