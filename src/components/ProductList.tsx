@@ -27,7 +27,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                 {product.productDescription}
               </Typography>
               <Typography variant="h6">
-                ${product.price}
+                {product.price}
               </Typography>
             </CardContent>
           </Card>
