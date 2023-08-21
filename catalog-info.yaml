@@ -9,11 +9,11 @@ metadata:
     backstage.io/template: my-component-template
     backstage.io/techdocs-ref: value
   links:
-    - url: https://bandokal.github.io/fun-raiser/
+    - url: https://fun-raisers.github.io/fun-raiser/
       title: Demo Site
       icon: dashboard
 spec:
   type: website
   lifecycle: poc
   owner: bandokal
-  repository: https://github.com/BandoKal/fun-raiser
+  repository: https://github.com/fun-raisers/fun-raiser
