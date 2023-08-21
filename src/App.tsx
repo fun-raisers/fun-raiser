@@ -8,7 +8,8 @@ import { ReactComponent as Logo } from './assets/buff-logo.svg';
 
 
 const App: React.FC = () => {
-  const products = ${{ values.products }} ?? productsData;
+  const productsFromTemplate = JSON.parse('${{ values.products }}');
+  const products = productsFromTemplate ?? productsData;
   return (
     <ThemeProvider theme={theme}>
     <React.Fragment>
